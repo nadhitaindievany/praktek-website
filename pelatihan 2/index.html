@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biodata Vani</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container nav-container">
+      <h1 class="logo">Vani's Space</h1>
+      <ul class="nav-links">
+        <li><a href="#biodata">Biodata</a></li>
+        <li><a href="#hobi">Hobi</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+        <li><a href="#surat">Surat</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section id="biodata" class="section">
+      <div class="container">
+        <h2>Biodata</h2>
+        <p>Halo! Perkenalkan namaku Nadhita Indie Vany. Aku sangat menyukai semua tentang pemrograman</p>
+        <img src="foto.png" alt="Foto Vani" class="profile-img" />
+      </div>
+    </section>
+
+    <section id="hobi" class="section">
+      <div class="container">
+        <h2>Hobi Saya</h2>
+        <ul class="list">
+          <li>Main Game 🎮</li>
+          <li>Menggambar 🎨</li>
+          <li>Olahraga 🏃‍♀️</li>
+          <li>Belajar 📚</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="kontak" class="section">
+      <div class="container">
+        <h2>Hubungi Saya</h2>
+        <p>Kalau mau ngobrol lebih lanjut, bisa klik tombol WA di bawah ini:</p>
+        <form action="https://wa.me/6289630032024">
+          <input type="submit" value="WhatsApp Saya" class="button" />
+        </form>
+      </div>
+    </section>
+
+    <section id="surat" class="section">
+      <div class="container">
+        <h2>Kirimin Saya Surat</h2>
+        <form>
+          <label for="nama">Nama:</label>
+          <input type="text" id="nama" name="nama_user" />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email_user" />
+
+          <label for="text">Isi Surat:</label>
+          <textarea id="text" name="isi_surat" rows="4"></textarea>
+
+          <button type="submit" class="button">Kirim</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Nadhita Indie Vany</p>
+    </div>
+  </footer>
+</body>
+</html>
